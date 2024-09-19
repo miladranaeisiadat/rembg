@@ -75,7 +75,7 @@ class BaseSession:
     def u2net_home(cls, *args, **kwargs):
         return os.path.expanduser(
             os.getenv(
-                "U2NET_HOME", '/tmp')
+                "U2NET_HOME", '/opt')
         )
 
     @classmethod
